@@ -1,0 +1,297 @@
+@media (max-width: 376px) {
+    body {
+        background: url(../images/bg-mobile.svg) hsl(257, 40%, 49%) no-repeat;
+    }
+
+    .header {
+        width: 100vw;
+        display: flex;
+        padding: 0;
+        margin-bottom: 35px;
+    }
+
+    .header .logo {
+        max-width: 190px;
+    }
+
+    .main {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main .image img {
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    .main .main-text {
+        width: 315px;
+    }
+
+    .main .main-text .title {
+        font-size: 24px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .main .main-text .text {
+        font-size: 16.5px;
+        text-align: center;
+    }
+
+    .main .main-text a {
+        text-align: center;
+    }
+
+    .main .main-text .button {
+        font-size: 12px;
+        padding: 8px;
+        margin-top: 8px;
+    }
+
+    .footer .list {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        margin-bottom: 30px;
+    }
+
+    .footer .list li {
+        margin-right: 0;
+    }
+
+    .footer .list a {
+        font-size: 12px;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 428px) and (min-width: 376px) {
+    body {
+        background: url(../images/bg-mobile-2.svg) hsl(257, 40%, 49%) no-repeat;
+    }
+
+    .header {
+        width: 100vw;
+        display: flex;
+        padding: 0;
+        margin-bottom: 35px;
+    }
+
+    .header .logo {
+        max-width: 190px;
+    }
+
+    .main {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .main .image img {
+        width: 335px;
+        margin-left: 20px;
+    }
+
+    .main .main-text {
+        width: 315px;
+    }
+
+    .main .main-text .title {
+        font-size: 24px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .main .main-text .text {
+        font-size: 16.5px;
+        text-align: center;
+    }
+
+    .main .main-text a {
+        text-align: center;
+    }
+
+    .main .main-text .button {
+        font-size: 12px;
+        padding: 8px;
+        margin-top: 8px;
+    }
+
+    .footer .list {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        margin-top: 30px;
+    }
+
+    .footer .list li {
+        margin-right: 0;
+    }
+
+    .footer .list a {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 442px) and (min-width: 429px) {
+    body {
+        background: url(../images/bg-mobile-3.svg) hsl(257, 40%, 49%) no-repeat;
+    }
+
+    .header {
+        width: 100vw;
+        display: flex;
+        padding: 0;
+        margin-bottom: 46px;
+    }
+
+    .header .logo {
+        max-width: 190px;
+    }
+
+    .main {
+        width: 100vw;
+        /* height: 100vh; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .main .image img {
+        width: 365px;
+        margin-left: 20px;
+    }
+
+    .main .main-text {
+        width: 315px;
+    }
+
+    .main .main-text .title {
+        font-size: 24px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .main .main-text .text {
+        font-size: 16.5px;
+        text-align: center;
+    }
+
+    .main .main-text a {
+        text-align: center;
+    }
+
+    .main .main-text .button {
+        font-size: 14px;
+        padding: 8px;
+        margin-top: 8px;
+    }
+
+    .footer .list {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        margin-top: 30px;
+    }
+
+    .footer .list li {
+        margin-right: 0;
+    }
+
+    .footer .list a {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+
+
+@media (max-width: 1000px) and (min-width: 800px) {
+    body {
+        background: url(../images/bg-mobile-4.svg) hsl(257, 40%, 49%) no-repeat;
+    }
+
+    .header {
+        padding: 0 35px;
+        margin-bottom: 125px;
+    }
+    
+    .header .logo {
+        max-width: 245px;
+        padding: 30px;
+    }
+
+    .main {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .main .image img {
+        width: 665px;
+        margin-left: 20px;
+        margin-bottom: 45px;
+    }
+
+    .main .main-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 520px;
+        height: 400px;
+    }
+    
+    .main-text h1,p {
+        margin-bottom: 22px;
+    }
+    
+    .main .main-text .title {
+        font-family: 'Poppins';
+        font-size: 45px;
+        font-weight: 600;
+        color: #fff;
+    }
+    
+    .main .main-text .text {
+        font-family: 'Open Sans';
+        font-size: 18px;
+        color: #fff;
+        font-weight: 400;
+    }
+
+    .main .main-text a {
+        text-align: center;
+    }
+
+    .main .main-text .button {
+        font-size: 16px;
+        padding: 8px;
+        margin-top: 8px;
+    }
+
+    .footer .list {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        margin-top: 30px;
+    }
+
+    .footer .list li {
+        margin-right: 0;
+    }
+
+    .footer .list a {
+        font-size: 14px;
+        padding: 8px;
+    }
+}

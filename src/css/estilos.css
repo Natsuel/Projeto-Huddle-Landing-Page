@@ -1,0 +1,115 @@
+body {
+    background: url(../images/bg-desktop.svg) hsl(257, 40%, 49%) left center no-repeat;
+    background-size: 82%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    height: auto;
+}
+
+/* HEADER */
+
+.header {
+    padding: 0 35px;
+    margin-bottom: 30px;
+}
+
+.header .logo {
+    max-width: 245px;
+    padding: 30px;
+}
+
+/* Main */
+
+.main {
+    display: flex;
+    padding: 0 30px;
+}
+
+.main .image {
+    padding: 0 35px;
+    margin-right: 18px;
+}
+
+
+.main .main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 495px;
+    height: 400px;
+}
+
+.main-text h1,p {
+    margin-bottom: 22px;
+}
+
+.main .main-text .title {
+    font-family: 'Poppins';
+    font-size: 38px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.main .main-text .text {
+    font-family: 'Open Sans';
+    font-size: 17px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.main .main-text .button {
+    font-family: 'Poppins';
+    font-size: 17px;
+    color: hsl(257, 40%, 49%);
+    width: 185px;
+    padding: 10px;
+    transition: 0.5s;
+    border-radius: 25px;
+    margin-top: 12px;
+}
+
+.main .main-text .button:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #ffffff;
+}
+
+/* FOOTER */
+
+
+.footer .list {
+    display: flex;
+    justify-content: end;
+    margin-right: 200px;
+}
+
+.footer .list li {
+    margin-right: 5px;
+}
+
+.footer .list a {
+    font-size: 18px;
+    padding: 8px;
+}
+
+.footer .list i {
+    border: 2px solid #fff;
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.fa-facebook-f:hover {
+    color: hsl(300, 69%, 71%) !important;
+    border: 2px solid hsl(300, 69%, 71%) !important;
+}
+
+.fa-twitter:hover {
+    color: hsl(300, 69%, 71%) !important;
+    border: 2px solid hsl(300, 69%, 71%) !important;
+}
+
+.fa-instagram:hover {
+    color: hsl(300, 69%, 71%) !important;
+    border: 2px solid hsl(300, 69%, 71%) !important;
+}
+
